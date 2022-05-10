@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio - Main</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-buttons">
+            <div class="header__home">
+              <a class="header__home-btn" href="">Home</a>
+            </div>
+            <div class="header__about">
+              <a class="header__about-btn" href="/about">About me</a>
+            </div>
+            <div class="header__skills">
+              <a class="header__skills-btn" href="/skills">Skills</a>
+            </div>
+            <div class="header__portfolio">
+              <a class="header__portfolio-btn" href="/portfolio">Portfolio</a>
+            </div>
+            <div class="header__contacts">
+              <a class="header__contacts-btn" href="/contacts">Contacts</a>
+            </div>
+          </div>
+          <div class="header__underline">⠀</div>
+        </div>
+      </header>
+      <div class="header-panel">
+        <div class="container">
+          <div class="header-panel__box1">
+            <div class="header-panel__name">Sergei Kurushkin</div>
+            <div class="header-panel__position">
+              Beginner Junior Python Developer 16 years old, Orenburg
+            </div>
+            <div class="header-panel__language">
+              <span class="header-panel__language-not-selected">ENG</span> |
+              <a class="header-panel__language-selected" href="/ru">RU</a>
+            </div>
+          </div>
+          <div class="header-panel__box2">
+            <img class="header-panel__img" src="./../static/image/Photo.png" alt="#" />
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

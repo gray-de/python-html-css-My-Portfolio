@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Skills</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename='css/style.css')}}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-buttons">
+            <div class="header__home">
+              <a class="header__home-btn" href="/">Home</a>
+            </div>
+            <div class="header__about">
+              <a class="header__about-btn" href="/about">About me</a>
+            </div>
+            <div class="header__skills">
+              <a class="header__skills-btn" href="/skills">Skills</a>
+            </div>
+            <div class="header__portfolio">
+              <a class="header__portfolio-btn" href="/portfolio">Portfolio</a>
+            </div>
+            <div class="header__contacts">
+              <a class="header__contacts-btn" href="/contacts">Contacts</a>
+            </div>
+          </div>
+          <div class="header__underline">⠀</div>
+        </div>
+      </header>
+      <div class="soft-skills">
+        <div class="container">
+        <div class="soft-skills__box">
+          <div class="soft-skills__title">Soft Skills</div>
+          <div class="soft-skills__description">
+            I rate my Soft Skills like this
+          </div>
+          <div class="soft-skills__rating">
+            <div class="soft-skills__rating-card">
+              <div class="soft-skills__name">Perseverance</div>
+              <div class="soft-skills__rating-value">
+                <img
+                  class="soft-skills__rating-img"
+                  src="./../static/image/rating-4.png"
+                  alt="/"
+                />
+              </div>
+            </div>
+            <div class="soft-skills__rating-card">
+              <div class="soft-skills__name">Teamwork</div>
+              <div class="soft-skills__rating-value">
+                <img
+                  class="soft-skills__rating-img"
+                  src="./../static/image/rating-4.png"
+                  alt="/"
+                />
+              </div>
+            </div>
+            <div class="soft-skills__rating-card">
+              <div class="soft-skills__name">Creativity</div>
+              <div class="soft-skills__rating-value">
+                <img
+                  class="soft-skills__rating-img"
+                  src="./../static/image/rating-3.png"
+                  alt="/"
+                />
+              </div>
+            </div>
+            <div class="soft-skills__rating-card">
+              <div class="soft-skills__name">Discipline</div>
+              <div class="soft-skills__rating-value">
+                <img
+                  class="soft-skills__rating-img"
+                  src="./../static/image/rating-4.png"
+                  alt="/"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hard-skills__box">
+          <div class="hard-skills__title">Hard Skills</div>
+          <div class="hard-skills__text">
+            <div class="hard-skills__text-p1">
+              I have knowledge of English at the Intermediate level
+            </div>
+            <div class="hard-skills__text-p2">
+              I have experience writing parsers in Python (using such libraries
+              as requests, Beautifulsoup4 and webdriver Selenium)
+            </div>
+            <div class="hard-skills__text-p3">
+              You can find some examples of my HTML coding projects (HTML5 and
+              CSS3) in my Portfolio. They are all done with flex-box and
+              adaptive
+            </div>
+            <div class="hard-skills__text-p4">
+              My hard skills are equipted with knowledge of PostgreSQL(using
+              pgAdmin or using Python library psycopg2)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

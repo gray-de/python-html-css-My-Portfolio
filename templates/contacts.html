@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacts</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename='css/style.css')}}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-buttons">
+            <div class="header__home">
+              <a class="header__home-btn" href="/">Home</a>
+            </div>
+            <div class="header__about">
+              <a class="header__about-btn" href="/about">About me</a>
+            </div>
+            <div class="header__skills">
+              <a class="header__skills-btn" href="/skills">Skills</a>
+            </div>
+            <div class="header__portfolio">
+              <a class="header__portfolio-btn" href="/portfolio">Portfolio</a>
+            </div>
+            <div class="header__contacts">
+              <a class="header__contacts-btn" href="/contacts">Contacts</a>
+            </div>
+          </div>
+          <div class="header__underline">⠀</div>
+        </div>
+      </header>
+      <div class="contacts">
+        <div class="container">
+          <div class="contacts-box">
+            <div class="contacts__title">Contacts</div>
+            <div class="contacts__description">
+              Want to know more or just chat? You are welcome!
+            </div>
+            <a class="contacts__btn" href="mailto:thegraycanal13542@gmail.com"
+              >Send message</a
+            >
+            <div class="contacts__links-list">
+              <a class="contacts__link" href="https://vk.com/serykur"
+                ><img
+                  class="contacts__img"
+                  src="./../static/image/vk-logo.png"
+                  alt="/"
+              /></a>
+              <a class="contacts__link" href="https://t.me/gray13542"
+                ><img
+                  class="contacts__img"
+                  src="./../static/image/telegram.png"
+                  alt="/"
+              /></a>
+            </div>
+            <div class="contacts__sec-description">
+              You can find me on VK, Telegram
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
